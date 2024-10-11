@@ -6,7 +6,7 @@ function Login() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-  };
+  }; 
   
   return (
     <div className='flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4 sm:p-6 md:p-8'>
