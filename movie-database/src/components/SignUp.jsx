@@ -52,7 +52,7 @@ function SignUp() {
         <p text-sm>© Movie Code. All rights reserved</p>
       </footer>
     </div>
-  );
+  ); 
 }
 
 export default SignUp;
