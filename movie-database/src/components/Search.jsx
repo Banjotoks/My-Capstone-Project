@@ -72,7 +72,7 @@ function Search({ onSearch }) {
         )}
       </div>
     </div>
-  );
+  ); 
 }
 
 export default Search;
