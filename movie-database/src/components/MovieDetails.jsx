@@ -135,7 +135,7 @@ function MovieDetails() {
           ))}
           </div>
         </section>
-    </div>
+    </div> 
   );
   }
   
