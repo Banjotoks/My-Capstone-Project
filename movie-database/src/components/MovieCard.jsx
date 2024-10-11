@@ -12,7 +12,7 @@ function MovieCard() {
     { id: 1,title: 'ITS What Inside', releaseDate: 'Decemer 26,2024', genre: 'Comedy', synopsis: 'A mysterious party game unleashes mind-blowing mayhem at a reunion of college frenemies in this psychological thriller where nobody is who they seem.' },
     { id: 1,title: 'Trouble', releaseDate: 'December 31,2024', genre: 'Crime', synopsis: 'He is a salesman wrongfully convicted of murder.She is a fearless coptold to drop his case. When they join forces, bullets-and sparks-start flying.'},
   ]);
-
+ 
   return (
     <div className='max-w-2xl mx-auto p-5 bg-white rounded-lg shadow-lg'>
       <h2 className='text-4xl font-bold mb-2'>Later This Year: Movie- Card Upcoming Blockbusters Of Different Genres</h2>
