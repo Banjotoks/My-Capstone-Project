@@ -9,7 +9,7 @@ import Search from "./components/Search";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
-
+ 
   const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
   };
