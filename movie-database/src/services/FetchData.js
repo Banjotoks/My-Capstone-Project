@@ -16,7 +16,7 @@ export const fetchMoviesByTitle = async (titles) => {
         console.error('Error fetching movies:', error);
         return [];
     }
-};
+}; 
 
 
 
