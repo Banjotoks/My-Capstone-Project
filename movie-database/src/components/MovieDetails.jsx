@@ -33,7 +33,7 @@ function MovieDetails() {
   };
 
   const fetchMovieDetailsFromAPI = async (imdbID) => {
-    const response = await fetch(`http://www.omdbapi.com/?i=${imdbID}&apikey=1ba32adb`);
+    const response = await fetch(`https://www.omdbapi.com/?i=${imdbID}&apikey=1ba32adb`);
     if (!response.ok) {
       throw new Error('Failed to fetch movie details');
     }
