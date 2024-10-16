@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_KEY = "1ba32adb";
-const BASE_URL = 'http://www.omdbapi.com/';
+const BASE_URL = 'https://www.omdbapi.com/';
 
 //Function to fetch movies using titles
 export const fetchMoviesByTitle = async (titles) => {
