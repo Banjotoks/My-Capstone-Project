@@ -3,14 +3,14 @@ import React, { useState } from 'react';
 function MovieCard() {
   const [movieCard, setMovieCard] = useState([
     { id: 1,title: 'The Predator', releaseDate: 'October 18,2024', genre: 'Sci-Fi', synopsis: 'After a deadly alien crash lands on earth, a soldier claims some of its tech for himself, setting off a brutal battle between Predator and prey' },
-    { id: 1,title: 'The Greatest of all time', releaseDate: 'October 22,2024', genre: 'Indian Action', synopsis: 'He was his agencys top hostage negotiator, field agent and spy- but years after retiring, one mission brings his past back to haunt him and his' },
-    { id: 1,title: 'The Platform 2', releaseDate: 'October 29,2024', genre: 'Thriller', synopsis: 'In a vertical system of cruel food distribution, a group of residents takes charge to ensureeveryone gets to eat. But can solidarity truly be enforced' },
-    { id: 1,title: 'Hitman', releaseDate: 'Novemmber 5,2024', genre: 'Action', synopsis: 'Betrayed by the Organization that trained him, an elite assassin hunts for answers in this "thoroughly entertaining" thriller(The Washington Post).'},
-    { id: 1,title: 'The Resident', releaseDate: 'November 22,2024', genre: 'Medical Drama', synopsis: 'An idealistic interns outlook changes when he trains with a brash, but brilliant doctor and a surgeon with a secret in this tense medical drama.' },
-    { id: 1,title: 'GYEONGSEONG CREATURE', releaseDate: 'December 1, 2024', genre: 'Thriller', synopsis: 'In this fictional drama that spans generations, a pair caught in time fights for survival against deadly monsters created by their enemy.'},
-    { id: 1,title: 'LISABI- The Uprising', releaseDate: 'December 2, 2024', genre: 'African Drama', synopsis: 'Based on the legendary story of the Egba people and a rebellion led by Lisabi, a traditional Yoruba hero with a hunger for freedom.'},
-    { id: 1,title: 'ITS What Inside', releaseDate: 'Decemer 26,2024', genre: 'Comedy', synopsis: 'A mysterious party game unleashes mind-blowing mayhem at a reunion of college frenemies in this psychological thriller where nobody is who they seem.' },
-    { id: 1,title: 'Trouble', releaseDate: 'December 31,2024', genre: 'Crime', synopsis: 'He is a salesman wrongfully convicted of murder.She is a fearless coptold to drop his case. When they join forces, bullets-and sparks-start flying.'},
+    { id: 2,title: 'The Greatest of all time', releaseDate: 'October 22,2024', genre: 'Indian Action', synopsis: 'He was his agencys top hostage negotiator, field agent and spy- but years after retiring, one mission brings his past back to haunt him and his' },
+    { id: 3,title: 'The Platform 2', releaseDate: 'October 29,2024', genre: 'Thriller', synopsis: 'In a vertical system of cruel food distribution, a group of residents takes charge to ensureeveryone gets to eat. But can solidarity truly be enforced' },
+    { id: 4,title: 'Hitman', releaseDate: 'Novemmber 5,2024', genre: 'Action', synopsis: 'Betrayed by the Organization that trained him, an elite assassin hunts for answers in this "thoroughly entertaining" thriller(The Washington Post).'},
+    { id: 5,title: 'The Resident', releaseDate: 'November 22,2024', genre: 'Medical Drama', synopsis: 'An idealistic interns outlook changes when he trains with a brash, but brilliant doctor and a surgeon with a secret in this tense medical drama.' },
+    { id: 6,title: 'GYEONGSEONG CREATURE', releaseDate: 'December 1, 2024', genre: 'Thriller', synopsis: 'In this fictional drama that spans generations, a pair caught in time fights for survival against deadly monsters created by their enemy.'},
+    { id: 7,title: 'LISABI- The Uprising', releaseDate: 'December 2, 2024', genre: 'African Drama', synopsis: 'Based on the legendary story of the Egba people and a rebellion led by Lisabi, a traditional Yoruba hero with a hunger for freedom.'},
+    { id: 8,title: 'ITS What Inside', releaseDate: 'Decemer 26,2024', genre: 'Comedy', synopsis: 'A mysterious party game unleashes mind-blowing mayhem at a reunion of college frenemies in this psychological thriller where nobody is who they seem.' },
+    { id: 9,title: 'Trouble', releaseDate: 'December 31,2024', genre: 'Crime', synopsis: 'He is a salesman wrongfully convicted of murder.She is a fearless coptold to drop his case. When they join forces, bullets-and sparks-start flying.'},
   ]);
  
   return (
